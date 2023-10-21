@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank - Developer Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover{
+            color:rgb(147, 147, 238);
+        }
+
+        .left{
+            font-size:2rem;
+        }
+
+        .firstSection{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            margin:30px 0;
+        }
+
+        .firstSection > div{
+            width : 30%;
+        }
+
+        .leftSection{
+            /* background-color: red; */
+            font-size: 2.8rem;
+            
+
+        }
+
+        /* .rightSection{
+            background-color: red;
+        } */
+
+        .purple{
+            color: rgb(181, 132, 227);
+        }
+
+        .text-gray{
+            color:grey;
+        }
+
+        #element{
+            color:rgb(181, 132, 227);
+        }
+
+        .secondSection{
+            max-width : 80vw;
+            margin:auto;
+            height: 50vh;
+        }
+
+
+        .secondSection h1{
+            font-size:1.9rem;
+        }
+
+        .secondSection .box{
+            background: white;
+            width:72vw;
+            height:2px;
+            margin:56px 0;
+            display: flex ;
+        }
+
+        .secondSection .vertical{
+            height:93px;
+            width:1px;
+            background-color: white;
+            margin:0 100px;
+        }
+
+        main hr{
+            border:0;
+            background:#9c97f1;
+            height: 1.2px;
+            margin:40px 84px;
+        }
+
+        .image-top{
+            width:23px;
+            position:relative;
+            top:-32px;
+            left:-9px;
+        }
+
+        .vertical-text{
+            position:relative;
+            top:75px;
+            width:150px;
+
+        }
+
+        .vertical-desc{
+            position: relative;
+            top:86px;
+            width:150px;
+            font-size: 10px;
+            color:gray;
+        }
+
+        .footer-section{
+            background-color: #0e0e1a;
+            height:233px;
+            
+        }
+
+        .footer-section{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer-section ul{
+            list-style: none;
+        }
+
+        .footer-section > div{
+            width:223px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class = "left">Mayank's Portfolio</div>
+            <div class = "right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href ="/">Contact Me</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class = "firstSection">
+            <div class = "leftSection">
+                Hi , My name is <span class = "purple">Mayank</span>
+                <div>and I am a passionate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+
+            </div>
+            <div class = "rightSection">
+                <img src = "developer.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class = "secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text">
+                        HTML Developer (2010 - 2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod voluptatem illum aspernatur iure, fuga minima nobis expedita pariatur distinctio facere quasi nam!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text">
+                        Node.js Developer (2012 - 2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod voluptatem illum aspernatur iure, fuga minima nobis expedita pariatur distinctio facere quasi nam!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text">
+                        MongoDB Developer (2016 - 2018)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod voluptatem illum aspernatur iure, fuga minima nobis expedita pariatur distinctio facere quasi nam!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text">
+                        AWS Developer (2020 - 2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod voluptatem illum aspernatur iure, fuga minima nobis expedita pariatur distinctio facere quasi nam!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text">
+                        Azure Developer (2024 - 2026)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod voluptatem illum aspernatur iure, fuga minima nobis expedita pariatur distinctio facere quasi nam!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-section">
+            <div class="first">
+                <h3>Mayank's Developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ["Web Developer","Android Developer","Also a Trader"],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html> 
